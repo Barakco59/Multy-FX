@@ -1,8 +1,9 @@
 clc
 clear all
 close all
-% Hello
+
 [voice,Fs]=audioread('06LittleWing.wav');
+
 player = audioplayer(voice,Fs) ;
 play(player)
 
