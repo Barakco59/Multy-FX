@@ -2,7 +2,11 @@ clc
 clear all
 close all
 
+% Barak
+%cohen
+
 [voice,Fs]=audioread('06LittleWing.wav');
+
 player = audioplayer(voice,Fs) ;
 play(player)
 
